@@ -1,7 +1,7 @@
 {
   "name": "SocketIO-Openshift-Example",
   "version": "1.0.0",
-  "description": "socketio-openshift-example",
+  "desciption": "socketio-openshift-example",
   "keywords": [
     "openshift",
     "Node.js",
@@ -18,6 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://www.github.com/nodebooks"
+  },
+  "scripts": {
+    "start": "node server.js"
   },
   "engines": {
     "node": ">= 0.10.0",
